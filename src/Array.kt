@@ -6,12 +6,10 @@ class MyArray{
             if (i<array.lastIndex){
                 print(", ")
             }
+            println()
         }
 
     }
-//    fun printArray(){
-//       print(array.joinToString(" ,"))
-//    }
 }
 fun main(){
     val arrayList= arrayOf(1,2,3,4,5)
@@ -19,27 +17,3 @@ fun main(){
     array.printIndex(arrayList)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-//class MyArray {
-//    val array = arrayOf(1, 2, 3, 4, 5)
-//
-//    fun printArray() {
-//        println(array.joinToString(", "))  // Print the array
-//    }
-//}
-//
-//fun main() {
-//    val myArray = MyArray()
-//    myArray.printArray()  // Output: 1, 2, 3, 4, 5
-//}
